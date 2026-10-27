@@ -1,0 +1,23 @@
+Title: Network Troubleshooting
+
+Symptoms:
+- Network timeout occurred.
+- Requests time out between services.
+- Connections are refused.
+- API requests experience high latency.
+
+Possible causes:
+- Network connectivity problems.
+- An unavailable downstream service.
+- Firewall or routing restrictions.
+- DNS resolution failures.
+- Excessive request latency or service overload.
+
+Recommended checks:
+1. Verify that the destination service is available.
+2. Check connectivity between the affected services.
+3. Inspect DNS resolution and firewall rules.
+4. Review request latency and timeout settings.
+5. Check service health and network error logs.
+
+Do not assume the root cause until the evidence confirms it.

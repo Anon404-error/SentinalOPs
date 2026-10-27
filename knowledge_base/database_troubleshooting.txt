@@ -1,0 +1,22 @@
+Title: Database Connection Troubleshooting
+
+Symptoms:
+- Database connection failed.
+- Database connection timeout.
+- Too many database connections.
+- Application requests fail when the database is unavailable.
+
+Possible causes:
+- The database server is down or unreachable.
+- Incorrect database connection settings.
+- The connection pool has reached its limit.
+- Network connectivity between the application and database is failing.
+
+Recommended checks:
+1. Verify that the database server is running.
+2. Check the database host, port, and connection settings.
+3. Inspect database connection pool usage and limits.
+4. Review database logs for connection errors and timeouts.
+5. Verify network connectivity between the application and database.
+
+Do not assume the root cause until the evidence confirms it.
